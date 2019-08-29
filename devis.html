@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Credeco-Devis en ligne</title>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.css" >
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/devis.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+		<script src="js/holder.js"></script>
+	</head>
+	<body>
+		<!-- start header -->
+		<header class="container-fluid mt-4">
+			<div class="row pt-3 header">
+				<div class="col-auto" id="menutop">
+					<ul class="list-inline">
+						<li class="list-inline-item blue pr-4">02 343 12 22</li>
+						<li class="list-inline-item pr-4"><a href="mailto:adresse@gmail.com" class="blue">sales@credeco.be</a></li>
+						<li class="list-inline-item">
+							<div class="dropdown">
+								<button class="btn btn-link dropdown-toggle blue" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								FR
+								</button>
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item blue" href="#">NL</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- end header -->
+		<!-- start nav -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-white align-items-end">
+			<a class="navbar-brand credecoLogo" href="accueil.html">
+				<img src="images/credeco_logo.svg" alt="Credeco logo" class="img-fluid">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav menu justify-content-between">
+					<li class="nav-item">
+						<a class="nav-link" href="accueil.html">Accueil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link darkgrey" href="techniques.html">Techniques de marquage</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link darkgrey" href="catalogues.html">Catalogues</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link darkgrey active" id="active2" href="devis.html">Devis en ligne</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link darkgrey" href="sportplayer.html">SportPlayer</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- end nav -->
+		
+		
+		<!-- coordonnées -->
+		<div class="container-fluid spaceTop">
+			<div class="row offset-md-1 mb-5">
+				<div class="col">
+					<h1 class="title red">Demandez un devis en ligne</h1>
+				</div>
+			</div>
+			
+			<div class="row offset-md-1">
+				<div class="col-lg-7">
+					<div class="row">
+						<div class="form-group col-md-4">
+							<input type="text" class="form-control" id="inputPrénom" placeholder="Prénom*">
+						</div>
+						<div class="form-group col-md-4">
+							<input type="text" class="form-control" id="inputNom" placeholder="Nom*">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-4">
+							<input type="email" class="form-control" id="inputEmail" placeholder="Email*">
+						</div>
+						<div class="form-group col-md-4">
+							<input type="text" class="form-control" id="inputTéléphone" placeholder="Téléphone">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-4">
+							<input type="text" class="form-control" id="inputEntreprise" placeholder="Entreprise">
+						</div>
+						<div class="form-group col-md-4">
+							<input type="text" class="form-control" id="inputCodepostal" placeholder="Code postal*">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-8">
+							<input type="text" class="form-control" id="inputTva" placeholder="Numéro de TVA - Ex: BE(X)XXX-XXX-XXX">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-8">
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Décrivez votre demande*"></textarea>
+						</div>
+					</div>
+					<!-- livraison -->
+					
+					<div class="row">
+						<div class="col">
+							<div class="form-check">
+								
+								<input class="form-check-input" type="checkbox" id="defaultCheck1">
+								<label class="form-check-label" for="defaultCheck1">
+									Livraison
+								</label>
+								
+								<div id="livraison">
+									<div class="row">
+										<div class="form-group col-md-8">
+											<input type="text" class="form-control" id="inputAdresse" placeholder="Adresse">
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col-md-4">
+											<input type="text" class="form-control" id="inputCode" placeholder="Code postal">
+										</div>
+										<div class="form-group col-md-4">
+											<input type="text" class="form-control" id="inputVille" placeholder="Ville*">
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<!-- end livraison -->
+					
+				</div>
+				<!-- end coordonnées -->
+				<!-- photo -->
+				
+				<div class="col-lg-4 d-none d-lg-block">
+					<img src="images/devis_2.jpg" alt="" class="img-fluid photo">
+				</div>
+			</div>
+			<!-- end photo -->
+			<!-- commande -->
+			<div class="row offset-md-1 spaceBottom mt-5">
+				<!-- commande -->
+				<div class="col-lg-7">
+					<div class="row commande">
+						<div class="form-group col-md-4">
+							<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+								<option selected>Nombre de pièces</option>
+								<option value="1">11-50</option>
+								<option value="2">51-100</option>
+								<option value="3">100+</option>
+							</select>
+							<p class="lightgrey mb-0"><small>Veuillez respecter le minimum de 10 pièces<br>pour impression et 6 pièces pour broderie.</small></p>
+						</div>
+						<div class="form-group col-md-4">
+							<select class="form-control" id="inlineFormCustomSelect">
+								<option selected>Technique de marquage</option>
+								<option value="1">Impression</option>
+								<option value="2">Broderie</option>
+								<option value="3">Transfert</option>
+								<option value="3">Objets</option>
+							</select>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col">
+							<p>Emplacement de l'impression</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+								<label class="form-check-label" for="inlineCheckbox1">face avant</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								<label class="form-check-label" for="inlineCheckbox2">face arrière</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+								<label class="form-check-label" for="inlineCheckbox3">manche gauche</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+								<label class="form-check-label" for="inlineCheckbox4">manche droite</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+								<label class="form-check-label" for="inlineCheckbox5">autre</label>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="form-group col-md-8">
+							<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+								<option selected>Indiquez le nombre de couleurs d’impression prévues</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="3">4</option>
+								<option value="3">5</option>
+								<option value="3">6</option>
+								<option value="3">7</option>
+								<option value="3">8</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8">
+							<div class="custom-file">
+								<input type="file" class="custom-file-input" id="customFile">
+								<label class="custom-file-label" for="customFile">Envoyez-nous votre conception</label>
+								<p class="lightgrey"><small>Formats acceptés de préférence: .ai, .eps, .pdf vectoriel</small></p>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-5 send">
+						<div class="offset-md-3 col-md-1">
+							<a href=""><button type="button" class="btn btn-lg" id="button">Envoyer</button></a>
+						</div>
+					</div>
+				</div>
+				<!-- end commande -->
+				
+				<!-- adresse -->
+				<div class="col-md-8 col-lg-4 align-content-end adresse">
+					<div class="card">
+						<div class="card-body py-4">
+							<div class="row pb-4 align-items-center">
+								<div class="col-4 col-sm-6 col-lg-4 col-xl-5 pl-sm-5 pr-xs-0 px-md-5 pl-lg-4"><img src="icons/devis_1.svg" class="picto" alt="">
+								</div>
+								<div class="col-8 col-sm-6 col-lg-8 col-xl-7"><p class="card-text">Rue du Feu 55<br>1190 Forest</p>
+							</div>
+						</div>
+						<div class="row pb-4 align-items-center">
+							<div class="col-4 col-sm-6 col-lg-4 col-xl-5 pl-sm-5 pr-xs-0 px-md-5 pl-lg-4"><img src="icons/devis_2.svg" class="picto" alt="">
+							</div>
+							<div class="col-8 col-sm-6 col-lg-8 col-xl-7"><p class="card-text">Philippe Denis<br>Aurore Denis<br> 02 343 12 22<br><a href="mailto:adresse@gmail.com"><span class="golden">sales@credeco.be</a></span><br><a href="https://www.facebook.com/Credeco-315049618551794/"><span class="golden">facebook</span></a></p>
+						</div>
+					</div>
+					<div class="row pb-4 align-items-center">
+						<div class="col-4 col-sm-6 col-lg-4 col-xl-5 pl-sm-5 pr-xs-0 px-md-5 pl-lg-4"><img src="icons/devis_3.svg" class="picto" alt="">
+						</div>
+						<div class="col-8 col-sm-6 col-lg-8 col-xl-7"><p class="card-text">Du lundi au vendredi<br>de 9h00 à17h00</p>
+					</div>
+				</div>
+				<div class="row justify-content-center px-0">
+					<p class="card-text golden"><em>Parking accessible</em></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- end adresse -->
+
+<!-- footer -->
+
+<div class="footer text-center text-white py-4 px-3">
+<p class="pt-5">
+	Credeco, société spécialisée dans l'impression, la broderie et la sérigraphie sur textile et vêtements publicitaires<br>
+	comme t-shirt, sweat-shirt, chemise, veste... et dans l'impression d'objets publicitaires.
+</p>
+<p>
+	Credeco SPRL - Rue du Feu 55, 1190 Bruxelles  02 343 12 22
+</p>
+<p ">
+	<a href="conditions generales/CGVFacture-1.jpg">Conditions générales de vente</a>  -  <a href="mentions legales/mentions-legales.jpg">Mentions légales</a>
+</p>
+</div>
+<!-- end footer -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.3.1.min.js" ></script>
+<script src="js/popper.min.js" ></script>
+<script src="js/bootstrap.js" ></script>
+</body>
+</html>

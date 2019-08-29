@@ -1,0 +1,98 @@
+.form-group{
+margin-bottom: 2rem;
+}
+/*coordonnées*/
+.form-control, .custom-select, .custom-file-label{
+	    border: 1px solid #53d5f4;
+}
+/*end coordonnées*/
+/*photo*/
+.photo{
+	border-radius: 0.8rem;
+}
+/*end photo*/
+/*commande*/
+.commande{
+	margin-bottom: -1rem;
+}
+#defaultCheck1:checked ~ #livraison{
+	display: block;
+
+}
+#defaultCheck1 ~ #livraison{
+	display: none;
+}
+.form-group, .form-control{
+	font-size: 1.2rem;
+	color: #404040;
+}
+.custom-file label:after{
+	content: "Choisir un fichier";
+	background-color: #878585;
+	color: white;
+}
+#button{
+	background-color: #FF3366;
+	color: white;
+	font-weight: 900;
+}
+/*end commande*/
+/*adresse*/
+.card{
+	background-color: #f8f9fa;
+}
+.golden{
+	color: #A2A151
+}
+.card a{
+	text-decoration: none;
+}
+.card-body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.picto{
+	width: 3.2vw;
+}
+.card-body>.row{
+	width: 100%;
+}
+/*end adresse*/
+
+
+/*media queries*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+	.card-body{
+		display: inline-flex !important;
+		flex-direction: column;
+	}
+}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px){
+	.card-body{
+		font-size: 1.2rem;
+}
+	.send{
+		text-align: center;
+}
+	.card-body>.row{
+	width: 75%;
+}
+.picto{
+		width: 8vw !important;
+}
+}
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px){
+	.adresse{
+		display: block;
+		padding-top: 3rem;
+}
+	.picto{
+		width: 5vw;
+}
+}

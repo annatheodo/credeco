@@ -1,0 +1,119 @@
+
+/*lines*/
+.lineLeft{
+  border-bottom: 2px solid #53d5f4;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+.lineRight{
+  border-bottom: 2px solid #53d5f4;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: right;
+  margin-left: 52vw;
+}
+/*end lines*/
+/*textile*/
+.photo{
+  border-radius: 2%;
+  vertical-align: middle;
+  height: 31.25rem;
+  width: auto;
+}
+.card{
+  width: 15vw;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+ .card img{
+  width: 50%;
+  align-self: center;
+  padding-top: 2rem;
+ }
+.btnBlue{
+  color: white;
+  background-color: #53d5f4;
+  border-color: #53d5f4;
+}
+.spaceRight{
+  margin-right: 5vw;
+}
+/*end textile*/
+/*objets*/
+.objets{
+  margin-left: 3vw;
+}
+/*end objets*/
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.photoExceptional{
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+
+
+/*media queries*/
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.cardCenter{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  width: 80vw !important;
+}
+}
+
+ /*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+h1{
+  text-align: center;
+}
+.textileCenter{
+  justify-content: center !important;
+}
+.card{
+  margin-bottom: 3rem;
+}
+.objetsRight{
+  width: 84% !important;
+}
+.objetsLeft{
+  padding-left: 4.5vw !important;
+}
+}
+
+ /*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+ .lineLeft{ 
+  margin-bottom: 2rem;
+}
+}
+
+ /*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+.spaceRight{
+  margin-right: 0;
+}
+.card{
+  width: 30vw;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+.objets{
+  margin-left: 6vw;
+}
+.objetsRight{
+  width: 232%;
+}
+.objetsLeft{
+  padding-left: 3.7vw;
+}
+}

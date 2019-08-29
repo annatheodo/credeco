@@ -1,0 +1,178 @@
+
+/*colors*/
+.blue{
+	color:  #53d5f4;
+}
+.red{
+	color: #FF3366;
+}
+.yellow{
+	color: #F9F871;
+}
+.darkgrey{
+	color: #404040;
+}
+.lightgrey{
+	color: #878585;
+}
+.icewhite{
+	background-color: #f9f9f9;
+}
+/*end colors*/
+
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.2rem;
+}
+.title{
+	font-family: 'Gabriela', serif;
+}
+.spaceTop{
+	margin-top: 7rem;
+}
+.spaceBottom{
+	margin-bottom: 7rem;
+}
+/*header*/
+.header{
+	display: flex;
+	justify-content: flex-end; 
+}
+/*end header*/
+/*nav*/
+.dropdown-toggle{
+	color: #53d5f4;
+}
+nav img{
+	width: 28rem;
+}
+nav{
+	font-size: 1.4rem;
+}
+.credecoLogo{
+	flex-shrink: 8;
+	flex-grow: 1;
+	flex-basis: 300px;
+}
+#active2 {
+	border-top: 2px solid #53d5f4;
+	color: #53d5f4;
+}
+.menu{
+	width: 100%;
+	flex-grow: 5;
+}
+/*end nav*/
+/*carousel*/
+.arrow{
+	width: 5rem;
+}
+.clientLogo:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.10);
+    }
+.carousel-caption{
+	left: 0;
+	right: 0;
+}
+.greyZone{
+	width: 100%;
+	height: auto;
+	background-color: rgba(0,0,0,0.3);
+}
+.slider{
+	font-family: 'Satisfy', cursive;
+	font-size: 4.5rem;
+	text-shadow: 2px 2px 4px #323232;
+}
+/*end carousel*/
+
+ /*footer*/
+
+.footer{
+	background-color: #53d5f4;
+	font-size: 1.1rem;
+}
+.footer a{
+	font-weight: 900;
+ 	text-decoration: none;
+ 	color: white;
+}
+ /*end footer*/
+
+
+
+
+/*media queries*/
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.header{
+	font-size: 1rem;
+	justify-content: space-around;
+}
+#carouselExampleControls,{
+	display: none;
+}
+.footer p:first-child{
+	display: none;
+}
+.footer{
+	padding-top: 2rem;
+	font-size: 0.8rem;
+	display: block;
+}
+}
+@media (max-width: 400px) {
+#menutop{
+	width: 100%;
+}
+#menutop ul{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+#menutop li{
+	width: 50%;
+	padding:0;
+	margin:0;
+}
+	
+}
+ /*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+#carouselExampleControls{
+	display: none;
+}
+.header{
+	justify-content: center;
+}
+.spaceTop{
+	margin-top: 2rem;
+}
+}
+
+ /*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+h1{
+	font-size: 1.7rem;
+}
+body{
+	font-size: 1rem;
+}
+.spaceTop{
+  	margin-top: 4rem;
+}
+}
+
+ /*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+nav{
+	font-size: 1.2rem;
+}
+.credecoLogo{
+	flex-basis: 200px;
+}
+}

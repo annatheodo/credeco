@@ -1,0 +1,187 @@
+/*main*/
+.contact{
+	display: flex;
+	flex-wrap: wrap;
+}
+.contact img{
+	width: 1.5rem;
+	margin-right: 6vw;
+}
+.data{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+.data p{
+	text-align: center;
+	width: 12.5rem;
+	margin-bottom: 0;
+}
+.link{
+	text-decoration: none;
+	color: #53d5f4;
+}
+.texte-qui p{
+	padding-right: 14rem;
+	border-right: solid 2px #53d5f4;
+	margin-bottom: 0;
+}
+.contact{
+	padding-left: 150px;
+}
+.main a{
+	text-decoration: none;
+}
+/*end main
+
+/*allCircles*/
+.allCircles{
+	font-weight: 900;
+	text-align: center;
+}
+.allCircles a{
+	text-decoration: none;
+	color: #404040;
+}
+.circle{
+	width: 15rem;
+}
+/*end allCircles*/
+
+/*clients*/
+.clientLogo{
+	height: 4rem;
+	 /*filter: gray;*/ /* IE5+ */
+      -webkit-filter: grayscale(1) contrast(1.5); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .4s ease-in-out;  
+    }
+/*end clients*/
+
+/*map*/
+.mapView{
+	padding-left: 0;
+	padding-right: 0;
+}
+#map{
+	/*width: 60%;*/
+	height: 100%;
+}
+ /*end maps*/
+
+
+
+
+ /*media queries*/
+ 
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.texte-qui{
+	text-align: justify;
+}
+.texte-qui>h1{
+	text-align: center;
+}
+.texte-qui>p{
+	justify-content: center;
+	padding-right: 0 !important;
+}
+.contact{
+	margin-top: -2rem;
+}
+.contact>div{
+	width: 100% !important;
+}
+.contact{
+	text-align: center;
+}
+.data{
+	justify-content: center;
+}
+#map{
+	margin-top: 2rem !important;
+	margin-bottom: 7rem !important;
+	height: 84% !important;
+}
+.footer{
+
+}
+}
+
+ /*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+.texte-qui{
+	margin-bottom: 5rem;
+	justify-content: center;
+}
+.texte-qui p{
+	border-right: hidden;
+}
+.clients{
+	display: none;
+}
+#streetView{
+	display: none;
+}
+.contact{
+	padding-left: 0 !important;
+}
+.contact h1{
+	flex-basis: 100%;
+}
+.contact>div{
+	width: 33%;
+}
+.contact img{
+	width: 1rem;
+	margin-right: 0;
+}
+.data p{
+	text-align: center;
+	width: 12.5rem;
+	margin-bottom: 0;
+}
+.allCircles{
+	padding-top: 0;
+}
+.circle{
+	width: 10rem;
+}
+#map{
+	margin-top: 5rem;
+	margin-bottom: 15rem;
+	height: 80%;
+}
+}
+
+ /*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+.contact{
+	display: flex;
+	flex-wrap: wrap;
+}
+}
+
+ /*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	
+.texte-qui{
+	display: flex;
+	flex-direction: column;
+}
+.texte-qui p{
+	padding-right: 4rem;
+}
+.contact{
+	 padding-left: 3rem;
+}
+.contact img{
+	margin-right: 2vw;
+}
+.allCircles{
+	justify-content: space-around;
+}
+.clients{
+	justify-content: space-between;
+}
+}
